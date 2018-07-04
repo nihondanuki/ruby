@@ -6,3 +6,7 @@ sum = sum + 1000
 puts sum
 
 puts "Hello world".sub('w', 'z')
+
+'Hello world'.each_char do |char|
+  puts char
+end
