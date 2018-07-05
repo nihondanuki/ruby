@@ -28,3 +28,13 @@ puts "5より#{ result }"
 
 num = 10
 puts 'numは5より大きいです' if num > 5
+
+str = ""
+case
+when str.empty?
+  puts "空文字列である"
+when str.nill?
+  puts "nilである"
+else
+  puts "文字列ではあるっす"
+end
