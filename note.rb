@@ -26,3 +26,7 @@ array = ['1','2','55']
 array.sort do |a,b|
   a.to_i <=> b.to_i
 end
+
+array.sort_by do |string|
+  string.to_i
+end
