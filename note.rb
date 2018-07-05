@@ -17,3 +17,6 @@ puts ''.empty?
 puts 'Hello World'.empty?
 
 puts 10 + 1 * 3
+
+foo ||= "sample"
+foo ||= "dance dance"
