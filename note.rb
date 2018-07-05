@@ -10,3 +10,5 @@ puts "Hello world".sub('w', 'z')
 'Hello world'.each_char do |char|
   puts char
 end
+
+puts "Hello world!".reverse.downcase
