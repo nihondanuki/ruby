@@ -59,3 +59,12 @@ hash = { name: 'taro', age: 25 }
 hash.each do |key, value|
   puts "key = #{ key }, value = #{ value }"
 end
+people = [{age: 1, name: 'alan'},{age: 2, name: 'geelman'}]
+people.sort! do |a, b|
+  a[:age] <=> b[:age]
+end
+puts people
+
+people.map do |person|
+  person[:name]
+end
