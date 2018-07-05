@@ -24,3 +24,8 @@ a
 a
 EOS
 puts message
+message = <<-EOS
+a
+a
+    EOS
+puts message
