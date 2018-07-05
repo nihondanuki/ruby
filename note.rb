@@ -51,3 +51,7 @@ hash = { age: 25, name: 'taro' }
 puts hash[:name]
 puts hash[:age]
 puts hash[:foo]
+people = [{age: 25, name: 'taro'}, {age: 20, name: 'jiro'}]
+people.each do |person|
+  puts "#{ person[:name] }は  #{ person[:age] }"
+end
