@@ -15,3 +15,5 @@ puts "Hello world!".reverse.downcase
 
 puts ''.empty?
 puts 'Hello World'.empty?
+
+puts 10 + 1 * 3
