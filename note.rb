@@ -1,6 +1,3 @@
-'Hello, World'.each_char do |char|
-  last_char = char
-  puts char
-end
-
-puts last_char
+puts __FILE__
+puts __LINE__
+puts __ENCODING__
