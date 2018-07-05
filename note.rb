@@ -6,3 +6,5 @@ puts __dir__
 
 WELCOME_MESSAGE = 'foo'
 puts WELCOME_MESSAGE
+
+puts WELCOME_MESSAGE
