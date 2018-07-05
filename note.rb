@@ -32,3 +32,8 @@ puts c
 puts "foo"
 # puts "あなたに"
 puts "bar" # quote
+
+=begin
+１
+２
+=end
