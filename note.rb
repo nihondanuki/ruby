@@ -34,3 +34,7 @@ a
 a
 EOS
 puts message
+message = <<EOS
+#{ nil }
+EOS
+puts message
