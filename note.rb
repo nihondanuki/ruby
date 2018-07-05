@@ -14,3 +14,7 @@ puts sout
 
 puts "FooFar".upcase
 puts "FooFar".downcase
+
+puts "[%10d]" % 10
+puts "[%010d]" % 10
+puts "[%010s]" % 10
