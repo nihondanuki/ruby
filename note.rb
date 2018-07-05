@@ -49,6 +49,5 @@ end
 
 num = 0
 loop do
-  puts num
-  num =+ 1
+  num += 1
 end
