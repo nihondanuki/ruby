@@ -27,3 +27,8 @@ puts b
 puts c
 :Gw
 10 == 10.0
+
+# この行は無視されます
+puts "foo"
+# puts "あなたに"
+puts "bar" # quote
