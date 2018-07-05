@@ -25,3 +25,5 @@ a, b, c = 1, 3, 5
 puts a
 puts b
 puts c
+:Gw
+10 == 10.0
