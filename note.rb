@@ -12,3 +12,9 @@ puts WELCOME_MESSAGE
 WELCOME_MESSAGE = 'foo'
 WELCOME_MESSAGE.upcase!
 puts WELCOME_MESSAGE
+
+1
+puts "".nil?
+2
+puts nil.class.ancestors
+puts true.class.ancestors
