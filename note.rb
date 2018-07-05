@@ -20,3 +20,8 @@ puts 10 + 1 * 3
 
 foo ||= "sample"
 foo ||= "dance dance"
+
+a, b, c = 1, 3, 5
+puts a
+puts b
+puts c
