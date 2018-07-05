@@ -37,3 +37,13 @@ array.sort_by { |q| [q[0], i += 1] }
 (1..5).each do |n|
   puts n
 end
+
+range = 1..5
+range.each do |n|
+  puts n
+end
+
+(1..3).each { |n| puts n}
+
+hash = { 'age' => 25}
+puts hash['age']
