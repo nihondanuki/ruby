@@ -7,3 +7,5 @@ end
 end
 
 puts 1.5.ceil
+puts 2.1.ceil
+puts -1.2.ceil
