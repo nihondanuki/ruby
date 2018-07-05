@@ -47,7 +47,25 @@ for num in 1..5
   puts num
 end
 
-num = 0
+
+num = 30
+str = (num % 5).zero? ? '5の倍数' : '5の倍数ではありません'
+puts str
+
+case (num % 5)
+when 0
+  puts '5の倍数'
+else
+  puts '5の倍数ではありません'
+end
+
+for n in 1..5
+  puts "*"* n
+end
+
+n = 0
 loop do
-  num += 1
+  puts "*"*n
+  n += 1
+  break unless n < 6
 end
