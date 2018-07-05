@@ -25,3 +25,6 @@ result = if num > 5
            '小さい'
          end
 puts "5より#{ result }"
+
+num = 10
+puts 'numは5より大きいです' if num > 5
