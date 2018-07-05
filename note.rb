@@ -17,3 +17,11 @@ elsif age <= 6
 else
   puts 'わかんないや⭐︎'
 end
+
+num = 10
+result = if num > 5
+           '大きい'
+         else
+           '小さい'
+         end
+puts "5より#{ result }"
