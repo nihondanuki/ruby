@@ -38,3 +38,5 @@ message = <<EOS
 #{ nil }
 EOS
 puts message
+
+puts "FooBar" =~ /oBa/
