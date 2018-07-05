@@ -47,3 +47,7 @@ end
 
 hash = { 'age' => 25}
 puts hash['age']
+hash = { age: 25, name: 'taro' }
+puts hash[:name]
+puts hash[:age]
+puts hash[:foo]
