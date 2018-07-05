@@ -37,3 +37,7 @@ puts "bar" # quote
 １
 ２
 =end
+
+'Hello, world!'.each_char do |char|
+  puts char
+end
