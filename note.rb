@@ -19,3 +19,8 @@ puts "[%010s]" % 10
 puts 'あ'.encoding
 puts 'あ'.encode('UTF-8').bytes
 puts 'あ'.encode('Shift_JIS').bytes
+message = <<EOS
+a
+a
+EOS
+puts message
