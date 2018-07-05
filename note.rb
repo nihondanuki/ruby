@@ -40,3 +40,8 @@ EOS
 puts message
 
 puts "FooBar" =~ /oBa/
+
+puts :foo.object_id
+puts :foo.object_id
+puts "foo".object_id
+puts "foo".object_id
