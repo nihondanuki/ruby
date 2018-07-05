@@ -55,3 +55,7 @@ people = [{age: 25, name: 'taro'}, {age: 20, name: 'jiro'}]
 people.each do |person|
   puts "#{ person[:name] }は  #{ person[:age] }"
 end
+hash = { name: 'taro', age: 25 }
+hash.each do |key, value|
+  puts "key = #{ key }, value = #{ value }"
+end
