@@ -47,3 +47,8 @@ puts "foo".object_id
 puts "foo".object_id
 puts :symbol.to_s
 puts :symbol.to_s.class
+
+"Hello World".reverse
+10.times do |n|
+  puts "%01d回目" % n
+end
