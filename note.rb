@@ -11,3 +11,6 @@ puts "#{ 60 * 1}"
 str = 'オブジェクト指向スクリプト'
 sout = str[-5,3]
 puts sout
+
+puts "FooFar".upcase
+puts "FooFar".downcase
