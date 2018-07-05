@@ -42,3 +42,7 @@ end
 num = 10
 result = num > 5 ? '大きい' : '小さい'
 puts "5より#{ result }"
+
+for num in 1..5
+  puts num
+end
