@@ -41,3 +41,11 @@ puts "bar" # quote
 'Hello, world!'.each_char do |char|
   puts char
 end
+
+[1, 2, 3].each do |num|
+  if num == 2
+    puts 'bingo'
+  end
+end
+
+
