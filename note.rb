@@ -52,3 +52,6 @@ puts :symbol.to_s.class
 10.times do |n|
   puts "%01d回目" % n
 end
+
+resul = /オブジェクト指向(?<regexp>.*)Ruby/.match("オブジェクト指向スクリプト言語Ruby")
+puts resul[:regexp]
