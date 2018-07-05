@@ -12,3 +12,6 @@ puts "Hello world".sub('w', 'z')
 end
 
 puts "Hello world!".reverse.downcase
+
+puts ''.empty?
+puts 'Hello World'.empty?
