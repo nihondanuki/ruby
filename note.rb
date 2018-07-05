@@ -46,3 +46,9 @@ puts "5より#{ result }"
 for num in 1..5
   puts num
 end
+
+num = 0
+loop do
+  puts num
+  num =+ 1
+end
