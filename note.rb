@@ -1,3 +1,11 @@
 if 0
-  puts "a"
+  puts "google"
+end
+
+if false
+  puts "if"
+end
+
+if nil
+  puts "if"
 end
