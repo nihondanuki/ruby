@@ -30,3 +30,6 @@ end
 array.sort_by do |string|
   string.to_i
 end
+
+i = 0
+array.sort_by { |q| [q[0], i += 1] }
