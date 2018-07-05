@@ -16,3 +16,13 @@ end
 ['千葉', nil].each do |obj|
   puts "#{ obj.class } obj.class"
 end
+
+array = ["a", "b", "c"]
+puts array[0]
+puts array[1]
+puts array[2]
+
+array = ['1','2','55']
+array.sort do |a,b|
+  a.to_i <=> b.to_i
+end
