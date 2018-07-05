@@ -38,3 +38,7 @@ when str.nill?
 else
   puts "文字列ではあるっす"
 end
+
+num = 10
+result = num > 5 ? '大きい' : '小さい'
+puts "5より#{ result }"
