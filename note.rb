@@ -40,3 +40,11 @@ end
 block_sample_yield do
   puts 'block called'
 end
+
+def block_sample_yield2
+  yield 'hi block'
+end
+
+block_sample_yield2 do |message|
+  puts message
+end
