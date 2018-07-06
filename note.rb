@@ -1,7 +1,5 @@
-def hello(name, honorific = '様')
+def hello(name:, honorific: 'さん')
   puts "Hello, #{ name }#{ honorific }"
 end
 
-hello('taro')
-
-hello('taro', 'さん')
+hello(name: 'taro')
