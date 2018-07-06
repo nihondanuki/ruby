@@ -178,3 +178,8 @@ sample = Attribute.new
 puts sample.customer
 sample.customer = 'photo'
 puts sample.customer
+
+name = 'a'
+height = 174
+
+puts "私(#{ name })の身長は#{ height }cmです"
