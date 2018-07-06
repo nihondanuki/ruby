@@ -32,3 +32,7 @@ puts Dir.glob("mailer")
 Dir.foreach("./") do |file|
   puts file
 end
+
+puts Dir.exist?('foo')
+
+puts Dir.pwd
