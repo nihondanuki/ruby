@@ -31,3 +31,11 @@ class ClassMethodSample
 end
 
 ClassMethodSample.method
+
+class A
+  class << self
+    def method
+      puts 'undertal'
+    end
+  end
+end
