@@ -48,3 +48,10 @@ end
 block_sample_yield2 do |message|
   puts message
 end
+
+def block_sample_yield3
+end
+
+block_sample_yield3 do
+  puts 'block called'
+end
