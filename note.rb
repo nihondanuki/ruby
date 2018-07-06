@@ -21,3 +21,12 @@ def sample2
 end
 
 puts sample2
+
+def sample3(num)
+  return 10 if num > 10
+  num
+end
+
+puts sample3(5)
+
+puts sample3(20)
