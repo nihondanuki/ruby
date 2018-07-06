@@ -8,3 +8,5 @@ else
 ensure
   puts 'ensure'
 end
+
+raise ArgumentError, 'this is Exception'
