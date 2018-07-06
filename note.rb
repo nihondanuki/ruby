@@ -183,3 +183,10 @@ name = 'a'
 height = 174
 
 puts "私(#{ name })の身長は#{ height }cmです"
+
+def show(name, height)
+  puts "私(#{ name })の身長は#{ height }cmです"
+end
+
+show('a', 1)
+show('kino', 2)
