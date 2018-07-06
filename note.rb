@@ -15,3 +15,9 @@ def sample
 end
 
 puts sample
+
+def sample2
+  return 100*2
+end
+
+puts sample2
