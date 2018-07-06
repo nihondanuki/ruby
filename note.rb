@@ -195,6 +195,35 @@ def show(person)
   puts "私(#{ person[:name] })の身長は#{ person[:height] }cmです"
 end
 
-person = { name: 'a', height: 1 }
+person = { name: 'soretomo', height: 1 }
 
 show(person)
+
+people = [
+  { name: 'a', height: 1 },
+  { name: 'A', height: 2 }
+]
+
+people.each do |person|
+  show(person)
+end
+
+class Person
+  def initialize(name, height)
+    @name = name
+    @height = height
+  end
+
+  def show
+    puts "私(#{ @name })の身長は#{ @height }です"
+  end
+end
+
+people = [
+  Person.new('alice', 1),
+  Person.new('sherlock', 2)
+]
+
+people.each do |person|
+  person.show
+end
