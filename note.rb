@@ -190,3 +190,11 @@ end
 
 show('a', 1)
 show('kino', 2)
+
+def show(person)
+  puts "私(#{ person[:name] })の身長は#{ person[:height] }cmです"
+end
+
+person = { name: 'a', height: 1 }
+
+show(person)
