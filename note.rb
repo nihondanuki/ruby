@@ -20,3 +20,14 @@ class InstanceSample
     puts "message : #{ MESSAGE.upcase }"
   end
 end
+
+sample = InstanceSample.new
+sample.message_upcase
+
+class ClassMethodSample
+  def ClassMethodSample.method
+    puts 'Class method called'
+  end
+end
+
+ClassMethodSample.method
