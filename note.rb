@@ -30,3 +30,13 @@ end
 puts sample3(5)
 
 puts sample3(20)
+
+def block_sample_yield
+  puts 'before yield'
+  yield
+  puts 'after yield'
+end
+
+block_sample_yield do
+  puts 'block called'
+end
