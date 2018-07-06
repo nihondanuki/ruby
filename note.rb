@@ -63,3 +63,14 @@ end
 block_sample_call do |message|
   puts message
 end
+
+def block_given_sample
+  if block_given?
+    yield 'hello'
+  else
+    puts 'block not given'
+  end
+end
+block_given_sample do |message|
+  puts message
+end
