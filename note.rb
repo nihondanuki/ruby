@@ -36,3 +36,12 @@ end
 puts Dir.exist?('foo')
 
 puts Dir.pwd
+
+Dir.chdir("foo") do
+  File.open("note.txt","w")
+end
+
+Dir.glob("foo/*").each do |file|
+  file_contents = File.read(file)
+  puts "#{file}/n#{ file_contents }"
+end
