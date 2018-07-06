@@ -55,3 +55,11 @@ end
 block_sample_yield3 do
   puts 'block called'
 end
+
+def block_sample_call(&block)
+  block.call 'block called'
+end
+
+block_sample_call do |message|
+  puts message
+end
