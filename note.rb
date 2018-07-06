@@ -1,6 +1,7 @@
-
-def hello
-  puts 'Hello World'
+def hello(name, honorific = '様')
+  puts "Hello, #{ name }#{ honorific }"
 end
 
-hello
+hello('taro')
+
+hello('taro', 'さん')
