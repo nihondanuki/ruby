@@ -109,3 +109,26 @@ counter2.countup!
 
 counter1.show
 counter2.show
+
+class ClassCountup
+  @@count = 0
+  class << self
+    def countup!
+      @@count += 1
+    end
+
+    def show
+      puts @@count
+    end
+  end
+end
+
+class SubClassCountup < ClassCountup;end
+ClassCountup.countup!
+ClassCountup.countup!
+ClassCountup.countup!
+SubClassCountup.countup!
+SubClassCountup.countup!
+
+ClassCountup.show
+SubClassCountup.show
