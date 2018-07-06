@@ -9,3 +9,9 @@ hello(args)
 args = { name: 'taro' }
 
 hello(args)
+
+def sample
+  100*2
+end
+
+puts sample
