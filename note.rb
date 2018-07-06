@@ -9,4 +9,14 @@ ensure
   puts 'ensure'
 end
 
-raise ArgumentError.new('エラーですよ')
+begin
+  exit
+rescue SystemExit => e
+  puts "exception class -> #{ e.class }"
+end
+
+class SampleError < StandardError;end
+
+begin
+  raise SampleError
+end
