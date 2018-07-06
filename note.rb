@@ -146,3 +146,35 @@ end
 SelfSample2.method
 sample = SelfSample2.new
 sample.m
+
+class Attr
+  def initialize
+    @val = 'kino'
+  end
+
+  def val
+    @val
+  end
+
+  def val=(val)
+    @val = val
+  end
+end
+
+a = Attr.new
+puts a.val
+a.val = 'photo'
+puts a.val
+
+class Attribute
+  attr_accessor :customer
+
+  def initialize
+    @customer = 'kino'
+  end
+end
+
+sample = Attribute.new
+puts sample.customer
+sample.customer = 'photo'
+puts sample.customer
