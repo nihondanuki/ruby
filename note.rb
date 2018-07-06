@@ -9,4 +9,4 @@ ensure
   puts 'ensure'
 end
 
-raise ArgumentError, 'this is Exception'
+raise ArgumentError.new('エラーですよ')
