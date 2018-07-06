@@ -71,3 +71,41 @@ end
 sample = Sample.new
 sample.say
 puts $message
+
+class Attomark
+  def initialize
+    @message = 'hello'
+  end
+
+  def greeting
+    puts @message
+  end
+end
+
+sample = Attomark.new
+sample.greeting
+
+class InstanceCountup
+  def initialize
+    @count = 0
+  end
+
+  def countup!
+    @count += 1
+  end
+
+  def show
+    puts @count
+  end
+end
+
+counter1 = InstanceCountup.new
+counter2 = InstanceCountup.new
+counter1.countup!
+counter1.countup!
+counter1.countup!
+counter2.countup!
+counter2.countup!
+
+counter1.show
+counter2.show
