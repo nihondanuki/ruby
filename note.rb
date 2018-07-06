@@ -12,3 +12,11 @@ class InitSample
 end
 
 InitSample.new
+
+class InstanceSample
+  MESSAGE = 'temmy'
+
+  def message_upcase
+    puts "message : #{ MESSAGE.upcase }"
+  end
+end
