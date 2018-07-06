@@ -25,3 +25,10 @@ puts File.read("./note.txt")
 File.readlines("./note.txt").each do |line|
   puts line
 end
+
+
+puts Dir.glob("mailer")
+
+Dir.foreach("./") do |file|
+  puts file
+end
