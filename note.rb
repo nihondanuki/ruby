@@ -74,3 +74,21 @@ end
 block_given_sample do |message|
   puts message
 end
+
+def draw(num)
+  for n in 1..num
+    puts "*" *n
+end
+end
+
+draw(5)
+
+def draw(n,&block)
+  for num in 1..n
+    block.call num
+  end
+end
+
+draw(3) do |num|
+  puts '-' * num
+end
