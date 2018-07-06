@@ -2,4 +2,10 @@ def hello(name:, honorific: 'さん')
   puts "Hello, #{ name }#{ honorific }"
 end
 
-hello(name: 'taro')
+args = { name: 'taro', honorific: '様' }
+
+hello(args)
+
+args = { name: 'taro' }
+
+hello(args)
