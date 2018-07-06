@@ -53,3 +53,21 @@ end
 
 sample = LocalSample.new
 sample.method_1
+
+puts $message.class
+
+$message = 'Hello'
+
+class Sample
+  def initialize
+    $message = "Hello from #{ self.class }"
+  end
+
+  def say
+    puts $message
+  end
+end
+
+sample = Sample.new
+sample.say
+puts $message
