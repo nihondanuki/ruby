@@ -132,3 +132,17 @@ SubClassCountup.countup!
 
 ClassCountup.show
 SubClassCountup.show
+
+class SelfSample2
+  puts self
+  def self.method
+    puts self
+  end
+  def m
+    puts self
+  end
+end
+
+SelfSample2.method
+sample = SelfSample2.new
+sample.m
