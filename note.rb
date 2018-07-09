@@ -50,3 +50,9 @@ end
 CSV.parse('str,100,2.2,2011-12-15 10:00:00', converters: :all) do |row|
   puts row.map { |r| "#{ r }(#{ r.class })" }.to_s
 end
+
+require 'json'
+
+data = { foo: { bar: 'sample', baz: 1000 }}
+puts data.to_json
+puts data
