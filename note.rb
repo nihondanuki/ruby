@@ -56,3 +56,7 @@ require 'json'
 data = { foo: { bar: 'sample', baz: 1000 }}
 puts data.to_json
 puts data
+
+JSON.parse(File.read('./json_sample.json'), symbolize_names: true)
+
+
