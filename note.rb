@@ -59,4 +59,7 @@ puts data
 
 JSON.parse(File.read('./json_sample.json'), symbolize_names: true)
 
-
+require 'yaml'
+array = ['array', 'array2']
+data = { key1: "value", key2: "value", key3: array }
+puts YAML.dump(data)
