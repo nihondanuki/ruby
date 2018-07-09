@@ -38,3 +38,5 @@ def quiz(foo, bar)
 end
 
 quiz(*[1, 2])
+
+[1,1,1].map(&:class)
