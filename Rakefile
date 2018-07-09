@@ -1,3 +1,5 @@
+task default: :sample_task_1
+
 desc 'sample task 1'
 task :sample_task_1 do
   puts 'execute sample_task_1'
