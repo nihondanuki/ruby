@@ -42,3 +42,7 @@ quiz(*[1, 2])
 [1,1,1].map(&:class)
 
 puts ENV['USER']
+
+ARGV.each do |arg|
+  puts arg
+end
