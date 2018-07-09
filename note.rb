@@ -67,3 +67,5 @@ puts YAML.dump(data)
 require 'fileutils'
 FileUtils.mkdir_p('./foo/bar/baz')
 FileUtils.touch('./foo/bar/baz/sample.txt')
+
+FileUtils.remove_entry_secure('./foo')
