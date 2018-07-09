@@ -31,3 +31,10 @@ end
 sample(1)
 sample(1, 2)
 sample(1, 2, 3)
+
+def quiz(foo, bar)
+  puts foo
+  puts bar
+end
+
+quiz(*[1, 2])
