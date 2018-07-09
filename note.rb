@@ -22,3 +22,12 @@ Hash.new do |h, k|
   puts h
   puts k
 end
+
+def sample(foo, *bar)
+  puts foo
+  puts bar
+end
+
+sample(1)
+sample(1, 2)
+sample(1, 2, 3)
