@@ -69,3 +69,10 @@ FileUtils.mkdir_p('./foo/bar/baz')
 FileUtils.touch('./foo/bar/baz/sample.txt')
 
 FileUtils.remove_entry_secure('./foo')
+
+CSV.open('./csv.csv','w') do |csv|
+  data = YAML.load_file('./tocsv.yml')
+  data.each do |key, value|
+    csv << value.map { |v| "#{ key }_#{ v }" }
+  end
+end
