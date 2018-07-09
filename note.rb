@@ -38,3 +38,11 @@ str_csv = CSV.generate do |csv|
 end
 
 puts str_csv
+
+CSV.foreach('./s.csv', headers: true) do |row|
+  puts row
+end
+
+CSV.foreach('./s.csv', headers: true, skip_blanks: true) do |row|
+  puts row
+end
