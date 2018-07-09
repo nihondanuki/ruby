@@ -1,2 +1,3 @@
-puts 'あ'.encoding
-p "あ".bytes
+str = "message".freeze
+
+str.reverse!
