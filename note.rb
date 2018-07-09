@@ -1,4 +1,4 @@
-message = 'foo'
-puts message
-binding.irb
-puts message
+# encoding: EUC-JP
+
+puts 'あ'.encoding
+p "あ".bytes
