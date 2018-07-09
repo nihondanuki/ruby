@@ -5,6 +5,10 @@ def gimei_make
   gimei.kanji + "(" + gimei.hiragana + ")"
 end
 
+def address
+  Gimei.address
+end
+
 task default: :name
 
 desc 'name'
@@ -14,3 +18,9 @@ task :name do
   end
 end
 
+desc 'address'
+task :address do
+  for i in 1..3 do
+    puts address
+  end
+end
