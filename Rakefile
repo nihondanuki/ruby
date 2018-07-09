@@ -1,11 +1,16 @@
-task default: :sample_task_1
+require 'gimei'
 
-desc 'sample task 1'
-task :sample_task_1 do
-  puts 'execute sample_task_1'
+def gimei_make
+  gimei = Gimei.new
+  gimei.kanji + "(" + gimei.hiragana + ")"
 end
 
-desc 'sample task 2'
-task :sample_task_2 do
-  puts 'execute sample_task_2'
+task default: :name
+
+desc 'name'
+task :name do
+  for i in 1..3 do
+    puts gimei_make
+  end
 end
+
